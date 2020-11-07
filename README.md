@@ -1,5 +1,5 @@
 # machine-learning-finance
-AI study based on natural language
+
 
 ### 참고도서
 - 참고도서1: 인공지능 투자가 퀀트  
