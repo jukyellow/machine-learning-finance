@@ -23,7 +23,7 @@
 -  
 #### 3.금융공학/수학 공개강좌
 - 금융공학트렌드(실습): http://www.kmooc.kr/courses/course-v1:POSTECHk+IMEN387+2020_2/about  
-- 을활용한통계학개론: http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2020_KM_010/about  
+- R을활용한통계학개론: http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2020_KM_010/about  
 <br>
 
 ## 학위
