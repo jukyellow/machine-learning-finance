@@ -2,6 +2,7 @@
 
 ### 인강정리: http://www.kmooc.kr/courses/course-v1:POSTECHk+IMEN387+2020_2/video  
 
+### Week 1  
 #### 1-1. 금융시장
 - 금융: 자금의 유통, 금융시장에서 자금의 수요와 공급  
 #### 1-2.주체 및 역할
