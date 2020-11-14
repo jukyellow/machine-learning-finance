@@ -180,21 +180,21 @@ stackloss
 R code
 
 a <- rep("A", 1520) ; a
-b <- rep(“B”,770) ; b
-c <- rep(“C”,510) ; c 
+b <- rep("B",770) ; b
+c <- rep("C",510) ; c 
 x <- c(a,b,c) ;x
 table(x)
 y <- as.matrix(table(x)) ;y
 freq <- y[,1] ; freq
-relative_freq <- freq/sum(y)
+relative_freq <- freq/sum(y); relative_freq
 z <- cbind(freq, relative_freq) ;z
 
 파이 챠트 (pie chart)
 x <- c(1520, 770, 510) ;x
-lab <- c(“A”, “B”, “C”) ; lab
 y <- round(x/sum(x)*100, digits=1) ; y
-w <- paste(lab, “(”, y, “%”, “)”) ;w
-pie(x, labels=w, main=“파이챠트”)
+lab <- c("A", "B", "C") ; lab
+w <- paste(lab, "(", y, "%", ")") ;w
+pie(x, labels=w, main="파이챠트")
 
 
 예제 : 30페이지로 이루어진 보고서에서 각 페이지당 오자의 개수
