@@ -233,8 +233,8 @@ boxplot(x)
 
 2.4 이변량 자료와 상관계수
 
-x <- faithful$eruptions
-y <- faithful$waiting
+x <- faithful$eruptions; x
+y <- faithful$waiting; y
 plot(x,y)
 cor(x,y)
 
