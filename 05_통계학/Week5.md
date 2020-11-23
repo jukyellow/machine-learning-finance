@@ -18,3 +18,15 @@
 > 어떤 시간 동안 톨게이트를 통과하는 차량의 수  
 
 #### 2. 정규분포(가우스분포)
+- 확률변수 X가 정규분포를 따를때, 확률밀도함수는  
+> f(x) =   
+\begin{align}
+\mathcal{N}(x; \mu, \sigma^2) = \dfrac{1}{\sqrt{2\pi\sigma^2}} \exp \left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)
+\tag{8.4.1}
+\end{align}  
+> X~N(u, o^2)  
+- X~N(u, o^2)일때, R을 이용한 계산식  
+- Z~N(0, 1) 인 경우  
+> P(-1<Z<1) = 0.683, P(-2<Z<2) = 0.954  
+> P(X <= x) : pnorm(x, u, o^2)  
+> a = P(X <= x)를 만족하는 x: qnorm(a, u, o^2)  
