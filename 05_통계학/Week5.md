@@ -20,12 +20,12 @@
 #### 2. 정규분포(가우스분포)
 - 확률변수 X가 정규분포를 따를때, 확률밀도함수는  
 > f(x) =     
-
+```
 \begin{align}
 \mathcal{N}(x; \mu, \sigma^2) = \dfrac{1}{\sqrt{2\pi\sigma^2}} \exp \left(-\dfrac{(x-\mu)^2}{2\sigma^2}\right)
 \tag{8.4.1}
 \end{align}  
-
+```
 > X~N(u, o^2)  
 - X~N(u, o^2)일때, R을 이용한 계산식  
 - Z~N(0, 1) 인 경우  
