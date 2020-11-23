@@ -22,8 +22,8 @@
 > f(x) =   
 ![image](https://user-images.githubusercontent.com/45334819/100022997-87b01c00-2e27-11eb-8f8f-c8ff0ebf53b3.png)  
 > X~N(u, o^2)  
-- X~N(u, o^2)일때, R을 이용한 계산식  
 - Z~N(0, 1) 인 경우  
 > P(-1<Z<1) = 0.683, P(-2<Z<2) = 0.954  
+- X~N(u, o^2)일때, R을 이용한 계산식  
 > P(X <= x) : pnorm(x, u, o^2)  
 > a = P(X <= x)를 만족하는 x: qnorm(a, u, o^2)  
