@@ -24,3 +24,22 @@
 > 로그선형모델: 반영변수가 포아송 분포(사건의 발생건수)를 따를 때  
 - 비모수회귀모형(non-parametric regression model): 회귀함수 f의 형태를 구체적으로 명시하지 않고, 함수의 추정치를 계산  
 
+#### 9.2 단순선형 회귀모형  
+- 참모형(true model)->산점도->설정모형(postulated)->적합모형(fitted)  
+- 단순선형회귀모형  
+> 직선회귀모형: Y = B0 + B1X + e  
+> e: 오차항, e~N(0, o^2)  
+> B0,B1: 회귀계수, 추정해야할 모수  
+- 단순회귀모형의목표: 3개의 모수 B0,B1, o^2을 추정  
+
+#### 9.3 최소제곱추정량  
+- 최조제곱추정(least squares estimation)  
+> D = 시그마 ei^2 = 시그마 (Yi - B0 - BiXi)^2을 최소로하는 B0,B1을 추정  
+- Sxx = 시그마 (Xi-Xbar)^2, Sxy = 시그마 (Xi-Xbar)(Yi-Ybar)  
+- 적합된 회귀식: Yhat = B0hat + Bixhat  
+- o^2 추정치(오차항의 분산) : s^2 = (1/n-2) 시그마 ei^  
+> 2개의 제약(B0, B1) 자유도=2 -> n-2
+
+#### 9.4 회귀모형의 적합도  
+- R^2 = SSR/SST =  1- SSE/SST : 결정계수 (coefficient of determinataaiton)  
+> 단순선형회귀의 경우, 결정계수 = 표본상관계수의 제곱  
