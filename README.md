@@ -33,6 +33,7 @@
 - 머신러닝 수학: https://datascienceschool.net/02%20mathematics/00.00%20%EC%86%8C%EA%B0%9C%EC%9D%98%20%EA%B8%80.html  
 - 금융공학트렌드(실습): http://www.kmooc.kr/courses/course-v1:POSTECHk+IMEN387+2020_2/about  
 - R을활용한통계학개론: http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2020_KM_010/about  
+- AI 연구자를 위한 통계적 학습론: http://www.kmooc.kr/courses/course-v1:PNUk+SL_C01+2020_KM_015/video  
 #### 3. 금융 시계열 분석과 적용모형의 이해
 -   
 #### 4. 강화학습
