@@ -5,6 +5,7 @@
 - 참고도서1: 인공지능 투자가 퀀트  
 - 참고도서2: 퀀트 전략을 위한 인공지능 트레이딩 (https://github.com/quant4junior/algoTrade)   
 - 참고도서3: 문병로 교수의 메트릭 스튜디오  
+- 참고도서4: 
 <br>
 
 ## 참고사이트
@@ -21,6 +22,8 @@
 - https://otexts.com/fppkr/  
 #### 6. 강화학습 금융데이터 분석 : 쿼리큘럼 참고
 - https://insightcampus.co.kr/shop/01-20fi08/  
+#### 7. 파이썬 증권 데이터 분석(도서 github)
+- https://github.com/INVESTAR/StockAnalysisInPython  
 
 <br>
 
