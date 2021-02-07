@@ -1,6 +1,6 @@
 # 알고트레이딩 Pandas 사용법 정리
 
-#1. 로딩
+### 1. 로딩
 ```
 import pandas as pd
 df = pd.read_csv('AAPL.csv')
@@ -8,20 +8,20 @@ print(type(df.index))      #<class 'pandas.core.indexes.range.RangeIndex'>
 print(type(df.index[0])) # <class 'int'>
 ```
 
-#항목순회
+### 항목순회
 ```
 for col in df.columns:
     series = df[col]
 print(series) #마지막 항목: Name: Volume, Length: 9715, dtype: float64
 ```
 
-#2. index를 설정하여 로딩
+### 2. index를 설정하여 로딩
 ```
 df = pd.read_csv('AAPL.csv', index_col='Date', parse_dates=['Date'])
 print(type(df.index)) # <class 'pandas.core.indexes.datetimes.DatetimeIndex'>
 ```
 
-#3. 결측치 확인/제거
+### 3. 결측치 확인/제거
 ```
 import numpy as np 
 print(df.isna().sum())
@@ -31,7 +31,7 @@ df[df.isin([np.nan, np.inf, -np.inf]).any(1)]
 df = df.dropna(axis=0) #0:row, 1:col
 ```
 
-#4. 슬라이싱/인덱싱/서브셋
+### 4. 슬라이싱/인덱싱/서브셋
 ```
 #열단위 출력
 print(df['Open'].head())
@@ -48,7 +48,7 @@ print(df.loc['2018-10-01':'2018-10-05', ['Open','Close']])
 print(df.iloc[8000:8005, [0,1]])
 ```
 
-# 5. 금융 시계열 분석에 유용한 pandas 함수
+###  5. 금융 시계열 분석에 유용한 pandas 함수
 ```
 #shift: 원하는 시간 주기 간격만큼 index를  shift가능
 df['Close_lag1'] = df['Close'].shift(1)
