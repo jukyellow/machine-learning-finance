@@ -1,4 +1,58 @@
-# 알고트레이딩 Pandas 사용법 정리
+# 알고트레이딩 기본기 정리
+
+## A. 주식 API, 거래소 정보 가져오기, 특정 기업 추적 및 종가흐름파악
+
+### 1. 설치 및 로딩
+```
+pip install -U finance-datareader
+import FinanceDataReader as fdr
+
+df_krx = fdr.StockListing('KRX')
+print(len(df_krx))
+df_krx.head()
+```
+
+### 2. 주식시장 거래소 정보
+```
+# 한국
+# 심볼	거래소
+# KRX	KRX 종목 전체
+# KOSPI	KOSPI 종목
+# KOSDAQ	KOSDAQ 종목
+# KONEX	KONEX 종목
+# 미국
+# 심볼	거래소
+# NASDAQ	나스닥 종목
+# NYSE	뉴욕 증권거래소 종목
+# AMEX	AMEX 종목
+# SP500	S&P 500 종목
+```
+
+### 3. 카카오 주식, 상장코드 추적 및 종가추이 가시화
+```
+a = df_krx[df_krx['Name'].isin(['카카오'])]['Symbol']
+print(a)
+
+df = df_krx[df_krx['Name'].isin(['카카오'])]
+df.set_index('Symbol', inplace=True)
+print(df)
+print(df.index[0]) #005930
+
+df_krx[df_krx['Symbol'].isin(['005930'])]
+
+# 종가 추이 가시화
+df = df_krx[df_krx['Name'].isin(['카카오'])]
+df.set_index('Symbol', inplace=True)
+
+df = fdr.DataReader(df.index[0],'2020')
+df.head(10)
+df['Close'].plot()
+```
+<br>
+<hr>
+
+
+## B. Pandas 사용법
 
 ### 1. 로딩
 ```
