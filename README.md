@@ -39,7 +39,7 @@
 - AI 연구자를 위한 통계적 학습론: http://www.kmooc.kr/courses/course-v1:PNUk+SL_C01+2020_KM_015/video  
 - R을활용한통계학개론: http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2020_KM_010/about  
 #### 3. 금융 시계열 분석과 적용모형의 이해
--   
+- (K-MOOC) 시계열분석 기법과 응용 (http://www.kmooc.kr/courses/course-v1:POSTECHk+IMEN677+2020_2/video)
 #### 4. 강화학습
 -  
 - (금융) https://insightcampus.co.kr/shop/01-20fi08/, https://m.blog.naver.com/PostView.nhn?blogId=chunjein&logNo=221912279159&navType=tl  
